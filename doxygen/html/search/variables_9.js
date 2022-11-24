@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['katalog_0',['Katalog',['../classporownania_1_1ListaPlik_xC3_xB3w.html#ae2035f7c14872cf294e961504736f1b6',1,'porownania::ListaPlików']]],
+  ['katalog_5fistnieje_1',['KATALOG_ISTNIEJE',['../classporownania_1_1ListaPlik_xC3_xB3w.html#aa4a01c0884fa68f730d9bb8c6583d92b',1,'porownania::ListaPlików']]],
+  ['katalogcsvmenu_2',['KatalogCSVMenu',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#ad75c83dad3dc00d163c497489c219e09',1,'porownania::GłówneOknoProgramu']]],
+  ['klasaobiektu_3',['KlasaObiektu',['../classListaPodobienstw_1_1ElementListy.html#ab3392ddb2bd8d07313d40247d99ae34a',1,'ListaPodobienstw::ElementListy']]],
+  ['kn_4',['kn',['../classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#ab59f56f0f0643d254be2c60bcb7e149e',1,'porownania::WalidacjaPlikówCSV']]],
+  ['kod_5',['Kod',['../classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a41008aee248610e79776253291243832',1,'porownania::WalidacjaPlikówCSV']]],
+  ['kodbłędu_6',['KodBłędu',['../classMotywy_1_1Wyj_xC4_x85tekDlaWierszaZMotywem.html#a4ddacf6586e7a167a7d2ea529b25b32d',1,'Motywy.WyjątekDlaWierszaZMotywem.KodBłędu()'],['../classStruktury_1_1B_xC5_x82_xC4_x99dyZWalidacji.html#ad4983b6ce8128585fdc41bb72bf2d029',1,'Struktury.BłędyZWalidacji.KodBłędu()']]],
+  ['kodliterowykolumny_7',['KodLiterowyKolumny',['../classStruktury_1_1B_xC5_x82_xC4_x99dyZWalidacji.html#a56320571d81108a150923145ff6257c1',1,'Struktury::BłędyZWalidacji']]],
+  ['kodowanieznaków_8',['KodowanieZnaków',['../classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a6ab3a31424afbc85ead43e5eb27941c5',1,'porownania.AnalizaPorównawcza.KodowanieZnaków()'],['../classStruktury_1_1PlikCSV.html#a2683590cdb247c0a50f34f51ca6f69b7',1,'Struktury.PlikCSV.KodowanieZnaków()']]],
+  ['kodowanieznkakówlabel_9',['KodowanieZnkakówLabel',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#adbd121beb7e8d98400efa37454104576',1,'porownania::GłówneOknoProgramu']]],
+  ['kolumna_10',['Kolumna',['../classStruktury_1_1AdresTakt.html#a61d221550d807d5a2e5ef51e5f820059',1,'Struktury::AdresTakt']]],
+  ['końce_11',['Końce',['../classStruktury_1_1Interpreter.html#a7778ef60cd3f0d81bf02c804ba5dd325',1,'Struktury::Interpreter']]],
+  ['kolumna_12',['Kolumna',['../classStruktury_1_1SystemG_xC5_x82os.html#a0507324405f3c8c54fffb1841273c57e',1,'Struktury.SystemGłos.Kolumna()'],['../classStruktury_1_1Kom_xC3_xB3rkaArkusza.html#adcfeceb1b225b61ada08254abce6dbdd',1,'Struktury.KomórkaArkusza.Kolumna()'],['../classStruktury_1_1B_xC5_x82_xC4_x99dyZWalidacji.html#a25ce819b9e68ad5905e895e28ce878f7',1,'Struktury.BłędyZWalidacji.Kolumna()'],['../classStruktury_1_1ArkuszZdarzenie.html#ae586ee2b8a4e153bfb272e91d2cc1714',1,'Struktury.ArkuszZdarzenie.Kolumna()']]],
+  ['kolumna_5fs_13',['Kolumna_S',['../classStruktury_1_1ArkuszZdarzenie.html#af0686538a1a52392e334646f6cbeb1cd',1,'Struktury::ArkuszZdarzenie']]],
+  ['komunikatytextfield_14',['KomunikatyTextField',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#a6d68795536d04bcc4200d48d55c779ef',1,'porownania::GłówneOknoProgramu']]],
+  ['komórki_15',['Komórki',['../classStruktury_1_1Arkusz.html#a93c82df3fbb9a0f059b5a3866c9987df',1,'Struktury::Arkusz']]],
+  ['koniecmenu_16',['KoniecMenu',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#a942c5a8e764deb7ba3edf76bbccf9a52',1,'porownania::GłówneOknoProgramu']]],
+  ['korzeń_17',['Korzeń',['../DrzewoBST_8java.html#a80302a2872775436dd529272ab7721d6',1,'DrzewoBST.java']]],
+  ['krabbox_18',['KrabBox',['../classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a23be309f4ff8fac902639047f02eff3f',1,'porownania::AnalizaPorównawcza']]],
+  ['krabcheckbox_19',['KrabCheckBox',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#a9a097c6e49bd05a1f342ce931258020b',1,'porownania::GłówneOknoProgramu']]]
+];

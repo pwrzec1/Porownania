@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['największadługość_0',['NajwiększaDługość',['../classMotywy_1_1ZnajdowanieMotyw_xC3_xB3w.html#a1cd1a72b8eb21424a26ba2e6f5dd1aa1',1,'Motywy::ZnajdowanieMotywów']]],
+  ['następny_1',['Następny',['../classListaPodobienstw_1_1ElementListy.html#aae65d7b65cf6fbc28f5abfd417422fef',1,'ListaPodobienstw::ElementListy']]],
+  ['nazwabieżącegokatalogucsv_2',['NazwaBieżącegoKataloguCSV',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#a035ce0dca73344665331178524ed21f3',1,'porownania::GłówneOknoProgramu']]],
+  ['nazwabieżącegokataloguwalidacji_3',['NazwaBieżącegoKataloguWalidacji',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#aed7ebfc394d7969c501e621dbc7f0a81',1,'porownania::GłówneOknoProgramu']]],
+  ['nazwabieżącegokataloguwynikowego_4',['NazwaBieżącegoKataloguWynikowego',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#a7f94e942a51e986030a8e1bb7b57e42d',1,'porownania::GłówneOknoProgramu']]],
+  ['nazwakatalogu_5',['NazwaKatalogu',['../classporownania_1_1ListaPlik_xC3_xB3w.html#acd15b91a1f48ff23043d37fb3945a9ff',1,'porownania::ListaPlików']]],
+  ['nazwapliku_6',['NazwaPliku',['../classporownania_1_1WynikWyszukiwania.html#a7fac46013f356732089654042405fd4c',1,'porownania.WynikWyszukiwania.NazwaPliku()'],['../classporownania_1_1ZapisywanieTekstuDoPliku.html#a22a5c978e3465b209afd7939b9932b79',1,'porownania.ZapisywanieTekstuDoPliku.NazwaPliku()'],['../classStruktury_1_1PlikCSV.html#a1c9349e7378ddd7485c6cf2dbb7f12e2',1,'Struktury.PlikCSV.NazwaPliku()']]],
+  ['nazwaplikutextarea_7',['NazwaPlikuTextArea',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#a8f357b108b803d69d84db5d00f96b98f',1,'porownania::GłówneOknoProgramu']]],
+  ['nazwaplikuwynikowego_8',['NazwaPlikuWynikowego',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#aec63d4244d458870b7a3f7565ecf1694',1,'porownania::GłówneOknoProgramu']]],
+  ['nazwaplikuwynikowegodlawalidacji_9',['NazwaPlikuWynikowegoDlaWalidacji',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#ac1ce54085f5b78e1e2b51d69ffad7c3f',1,'porownania::GłówneOknoProgramu']]],
+  ['nazwaplikuzwynikami_10',['NazwaPlikuZWynikami',['../classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#ac8ec95f974380d384b7c5af3f99420b7',1,'porownania::WalidacjaPlikówCSV']]],
+  ['nazwatekstowasystemu_11',['NazwaTekstowaSystemu',['../classStruktury_1_1SystemG_xC5_x82os.html#adceb1dadf5f5409094d0a638fa3b3669',1,'Struktury::SystemGłos']]],
+  ['nazwawynikianalizyplikmenu_12',['NazwaWynikiAnalizyPlikMenu',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#a0c4efcb2fff5893cd5410cf08d32d5e5',1,'porownania::GłówneOknoProgramu']]],
+  ['nie_5fudało_5fsię_5fzamknąć_5fpliku_13',['NIE_UDAŁO_SIĘ_ZAMKNĄĆ_PLIKU',['../classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#adbebd65c68f4cd62062c841ad4853b11',1,'porownania::WalidacjaPlikówCSV']]],
+  ['nie_5fznaleziono_5fplikow_5fcsv_14',['NIE_ZNALEZIONO_PLIKOW_CSV',['../classporownania_1_1ListaPlik_xC3_xB3w.html#af10d88da1e281589d1ce66035875f0e5',1,'porownania::ListaPlików']]],
+  ['numergłosu_15',['NumerGłosu',['../classStruktury_1_1ArkuszZdarzenie.html#a3b84f4c9a4b607e90b4a8d86c34a9c01',1,'Struktury::ArkuszZdarzenie']]],
+  ['numersystemu_16',['NumerSystemu',['../classporownania_1_1Rezultat.html#a0829c26aa345680dea287b305c2c43ed',1,'porownania.Rezultat.NumerSystemu()'],['../classStruktury_1_1AdresTakt.html#a888b9a4ce704687c4d896082a9d45301',1,'Struktury.AdresTakt.NumerSystemu()'],['../classStruktury_1_1SystemG_xC5_x82os.html#a8d12b6bb929ef5e55ecc32160f962fb3',1,'Struktury.SystemGłos.NumerSystemu()']]]
+];

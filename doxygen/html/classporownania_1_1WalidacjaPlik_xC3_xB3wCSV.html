@@ -1,0 +1,1106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Wyszukiwanie i porównywanie motywów muzycznych: Dokumentacja klasy porownania.WalidacjaPlikówCSV</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Wyszukiwanie i porównywanie motywów muzycznych<span id="projectnumber">&#160;1</span>
+   </div>
+   <div id="projectbrief">Wyszukiwanie motywów muzycznych w utworach polifonicznych. (c) Piotr Wrzeciono &amp; Anna Matuszewska, 2022</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceporownania.html">porownania</a></li><li class="navelem"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html">WalidacjaPlikówCSV</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pub-static-attribs">Statyczne atrybuty publiczne</a> &#124;
+<a href="#pac-attribs">Atrybuty pakietu</a> &#124;
+<a href="#pri-methods">Metody prywatne</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle"><div class="title">Dokumentacja klasy porownania.WalidacjaPlikówCSV</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Diagram dziedziczenia dla porownania.WalidacjaPlikówCSV</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV__inherit__graph.svg" width="228" height="682"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Diagram współpracy dla porownania.WalidacjaPlikówCSV:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV__coll__graph.svg" width="454" height="755"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a1363509d9191c683e195e3dddcd87468"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a1363509d9191c683e195e3dddcd87468">WalidacjaPlikówCSV</a> (String[] tab_nazw, JProgressBar pasek, String nazwa_out, int kod_znaków_csv, boolean zapisywać)</td></tr>
+<tr class="separator:a1363509d9191c683e195e3dddcd87468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a082954eced190e91418d589e48cfae20"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a082954eced190e91418d589e48cfae20">getStatusZapisu</a> ()</td></tr>
+<tr class="separator:a082954eced190e91418d589e48cfae20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6183c486b95548f3fc41992ff2af346"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#ae6183c486b95548f3fc41992ff2af346">getStatusWątku</a> ()</td></tr>
+<tr class="separator:ae6183c486b95548f3fc41992ff2af346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcb04c31c5f12de4db068168c2afddd6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#adcb04c31c5f12de4db068168c2afddd6">toString</a> ()</td></tr>
+<tr class="separator:adcb04c31c5f12de4db068168c2afddd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06f04fa5de0447a788775285f24793d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a06f04fa5de0447a788775285f24793d1">run</a> ()</td></tr>
+<tr class="separator:a06f04fa5de0447a788775285f24793d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce4b813658651ab77ab8f5b94b12a6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classporownania_1_1PlikZwalidowany.html">PlikZwalidowany</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a5ce4b813658651ab77ab8f5b94b12a6b">getTablicęPlikówPoprawnych</a> ()</td></tr>
+<tr class="separator:a5ce4b813658651ab77ab8f5b94b12a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Statyczne atrybuty publiczne</h2></td></tr>
+<tr class="memitem:a081158499d273db2f47b5c7582fd0a74"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a081158499d273db2f47b5c7582fd0a74">PRZED_ZAPISEM</a> = 0</td></tr>
+<tr class="separator:a081158499d273db2f47b5c7582fd0a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8684fe565ac1fcde11a0a24e34af4ca"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#aa8684fe565ac1fcde11a0a24e34af4ca">PLIK_OTWARTO</a> = 1</td></tr>
+<tr class="separator:aa8684fe565ac1fcde11a0a24e34af4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a029d22ed7fc26e676830055e55c87f80"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a029d22ed7fc26e676830055e55c87f80">PLIKU_NIE_UDAŁO_SIĘ_OTWORZYĆ</a> = 2</td></tr>
+<tr class="separator:a029d22ed7fc26e676830055e55c87f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf4ab8f2ec0c90ec94d97d9404bfa4c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a4bf4ab8f2ec0c90ec94d97d9404bfa4c">ZAPIS_UDANY</a> = 3</td></tr>
+<tr class="separator:a4bf4ab8f2ec0c90ec94d97d9404bfa4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7155e909fec78e0618a91f4595bc32c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#af7155e909fec78e0618a91f4595bc32c">BŁĄD_ZAPISU</a> = 4</td></tr>
+<tr class="separator:af7155e909fec78e0618a91f4595bc32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbebd65c68f4cd62062c841ad4853b11"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#adbebd65c68f4cd62062c841ad4853b11">NIE_UDAŁO_SIĘ_ZAMKNĄĆ_PLIKU</a> = 5</td></tr>
+<tr class="separator:adbebd65c68f4cd62062c841ad4853b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ecfd466fdde3a286bc5833c6bdf7066"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a0ecfd466fdde3a286bc5833c6bdf7066">PUSTA_TABLICA</a> = 6</td></tr>
+<tr class="separator:a0ecfd466fdde3a286bc5833c6bdf7066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83783fb06f4ef5297520b9ae78363c4a"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a83783fb06f4ef5297520b9ae78363c4a">ZAPISYWANIE</a> = true</td></tr>
+<tr class="separator:a83783fb06f4ef5297520b9ae78363c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a663daca82e9fbb03223af067071dc6b3"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a663daca82e9fbb03223af067071dc6b3">BRAK_ZAPISYWANIA</a> = false</td></tr>
+<tr class="separator:a663daca82e9fbb03223af067071dc6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cce480c29eec9b588f15e6b0d469fd1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a8cce480c29eec9b588f15e6b0d469fd1">PRZED</a> = 0</td></tr>
+<tr class="separator:a8cce480c29eec9b588f15e6b0d469fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac57048372db71909295d515851722cab"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#ac57048372db71909295d515851722cab">W_TRAKCIE</a> = 1</td></tr>
+<tr class="separator:ac57048372db71909295d515851722cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a490171d4d7c768d8271c70aab3f52853"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a490171d4d7c768d8271c70aab3f52853">PO</a> = 2</td></tr>
+<tr class="separator:a490171d4d7c768d8271c70aab3f52853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae44d3c29441db3698e6bdd12bc02549a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#ae44d3c29441db3698e6bdd12bc02549a">PO_MAIN</a> = 3</td></tr>
+<tr class="separator:ae44d3c29441db3698e6bdd12bc02549a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-attribs" name="pac-attribs"></a>
+Atrybuty pakietu</h2></td></tr>
+<tr class="memitem:ab59f56f0f0643d254be2c60bcb7e149e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#ab59f56f0f0643d254be2c60bcb7e149e">kn</a></td></tr>
+<tr class="separator:ab59f56f0f0643d254be2c60bcb7e149e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Metody prywatne</h2></td></tr>
+<tr class="memitem:a56dd54a39edb998d71cf04f8125591fd"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a56dd54a39edb998d71cf04f8125591fd">CzyTablicaPlikówJestPusta</a> ()</td></tr>
+<tr class="separator:a56dd54a39edb998d71cf04f8125591fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14cf12c9a8f460eb715d4e9798dedafc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a14cf12c9a8f460eb715d4e9798dedafc">getProcent</a> (int x, int n)</td></tr>
+<tr class="separator:a14cf12c9a8f460eb715d4e9798dedafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97f858ca18636d9afd56d3e135eb4e9a"><td class="memItemLeft" align="right" valign="top">synchronized String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a97f858ca18636d9afd56d3e135eb4e9a">GenerujOpisWalidacji</a> (LinkedList&lt; <a class="el" href="classStruktury_1_1B_xC5_x82_xC4_x99dyZWalidacji.html">BłędyZWalidacji</a> &gt; błędy)</td></tr>
+<tr class="separator:a97f858ca18636d9afd56d3e135eb4e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad812ef71b9e6e96509e8f09aa17e6198"><td class="memItemLeft" align="right" valign="top">synchronized String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#ad812ef71b9e6e96509e8f09aa17e6198">UtwórzKomunikat</a> (int i)</td></tr>
+<tr class="separator:ad812ef71b9e6e96509e8f09aa17e6198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b4be03b632ca1f032e85c29b20328fc"><td class="memItemLeft" align="right" valign="top">synchronized void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a8b4be03b632ca1f032e85c29b20328fc">ZapiszWyniki</a> ()</td></tr>
+<tr class="separator:a8b4be03b632ca1f032e85c29b20328fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:ae46bad6fca2bc1befae8e5eb4a675691"><td class="memItemLeft" align="right" valign="top">final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#ae46bad6fca2bc1befae8e5eb4a675691">TablicaNazwPlików</a></td></tr>
+<tr class="separator:ae46bad6fca2bc1befae8e5eb4a675691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8ec95f974380d384b7c5af3f99420b7"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#ac8ec95f974380d384b7c5af3f99420b7">NazwaPlikuZWynikami</a></td></tr>
+<tr class="separator:ac8ec95f974380d384b7c5af3f99420b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa62fe621916343b720ed3104b92fe9"><td class="memItemLeft" align="right" valign="top">final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#acaa62fe621916343b720ed3104b92fe9">WynikiWalidacji</a></td></tr>
+<tr class="separator:acaa62fe621916343b720ed3104b92fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a9cb5d599e56a68f7105144be72be2"><td class="memItemLeft" align="right" valign="top">final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a75a9cb5d599e56a68f7105144be72be2">Statusy</a></td></tr>
+<tr class="separator:a75a9cb5d599e56a68f7105144be72be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41008aee248610e79776253291243832"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a41008aee248610e79776253291243832">Kod</a></td></tr>
+<tr class="separator:a41008aee248610e79776253291243832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc5c7ae72e7e246a2a3b7f63e3d5292"><td class="memItemLeft" align="right" valign="top">final JProgressBar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a6bc5c7ae72e7e246a2a3b7f63e3d5292">PasekPostępu</a></td></tr>
+<tr class="separator:a6bc5c7ae72e7e246a2a3b7f63e3d5292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aa11dd363900f06efcbe1918b5edb1e"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a4aa11dd363900f06efcbe1918b5edb1e">StatusZapisu</a></td></tr>
+<tr class="separator:a4aa11dd363900f06efcbe1918b5edb1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ea63b18491cc7504993b754ecd99621"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a3ea63b18491cc7504993b754ecd99621">StatusWątku</a></td></tr>
+<tr class="separator:a3ea63b18491cc7504993b754ecd99621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a667f6b32eaa3014da6a0e748a8c7f312"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classporownania_1_1PlikZwalidowany.html">PlikZwalidowany</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a667f6b32eaa3014da6a0e748a8c7f312">TablicaWynikówWalidacji</a></td></tr>
+<tr class="separator:a667f6b32eaa3014da6a0e748a8c7f312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9474c3f502c594abbcf48cc87cf9f3ea"><td class="memItemLeft" align="right" valign="top">final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a9474c3f502c594abbcf48cc87cf9f3ea">CzyZapisywaćWalidację</a></td></tr>
+<tr class="separator:a9474c3f502c594abbcf48cc87cf9f3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p >Klasa służąca do przeprowadzania walidacji plików CSV. Klasa działa w swoim watku! </p><dl class="section author"><dt>Autor</dt><dd>Piotr Wrzeciono </dd></dl>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="a1363509d9191c683e195e3dddcd87468" name="a1363509d9191c683e195e3dddcd87468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1363509d9191c683e195e3dddcd87468">&#9670;&#160;</a></span>WalidacjaPlikówCSV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">porownania.WalidacjaPlikówCSV.WalidacjaPlikówCSV </td>
+          <td>(</td>
+          <td class="paramtype">String[]&#160;</td>
+          <td class="paramname"><em>tab_nazw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JProgressBar&#160;</td>
+          <td class="paramname"><em>pasek</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>nazwa_out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>kod_znaków_csv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>zapisywać</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Konstruktor klasy służącej do walidacji plików CSV z notacją zdarzeniową. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tab_nazw</td><td>Tablica nazw plików </td></tr>
+    <tr><td class="paramname">pasek</td><td>Pasek postępu </td></tr>
+    <tr><td class="paramname">nazwa_out</td><td>Nazwa pliku wyjściowego (tekstowego) </td></tr>
+    <tr><td class="paramname">kod_znaków_csv</td><td>Kod znaków CSV według klasy PlikCSV. </td></tr>
+    <tr><td class="paramname">zapisywać</td><td>Informacja o tym, czy dane mają być zapisywane <b>ZAPISYWANIE</b>, czy też nie <b>BRAK_ZAPISYWANIA</b>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_a1363509d9191c683e195e3dddcd87468_cgraph.svg" width="460" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="a56dd54a39edb998d71cf04f8125591fd" name="a56dd54a39edb998d71cf04f8125591fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56dd54a39edb998d71cf04f8125591fd">&#9670;&#160;</a></span>CzyTablicaPlikówJestPusta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean porownania.WalidacjaPlikówCSV.CzyTablicaPlikówJestPusta </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Metoda sprawdzająca, czy tablica plików jest pusta. </p><dl class="section return"><dt>Zwraca</dt><dd><b>true</b>, gdy tablica plików CSV nie zawiera nic, <b>false</b> w przeciwnym przypadku. </dd></dl>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_a56dd54a39edb998d71cf04f8125591fd_icgraph.svg" width="460" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a97f858ca18636d9afd56d3e135eb4e9a" name="a97f858ca18636d9afd56d3e135eb4e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97f858ca18636d9afd56d3e135eb4e9a">&#9670;&#160;</a></span>GenerujOpisWalidacji()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">synchronized String porownania.WalidacjaPlikówCSV.GenerujOpisWalidacji </td>
+          <td>(</td>
+          <td class="paramtype">LinkedList&lt; <a class="el" href="classStruktury_1_1B_xC5_x82_xC4_x99dyZWalidacji.html">BłędyZWalidacji</a> &gt;&#160;</td>
+          <td class="paramname"><em>błędy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Metoda służąca do generacji opisu wyniku walidacji </p><dl class="section return"><dt>Zwraca</dt><dd>Opis tekstowy walidacji </dd></dl>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_a97f858ca18636d9afd56d3e135eb4e9a_icgraph.svg" width="432" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a14cf12c9a8f460eb715d4e9798dedafc" name="a14cf12c9a8f460eb715d4e9798dedafc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14cf12c9a8f460eb715d4e9798dedafc">&#9670;&#160;</a></span>getProcent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int porownania.WalidacjaPlikówCSV.getProcent </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Metoda licząca procent z całości. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Liczba - mniejsza lub równa n </td></tr>
+    <tr><td class="paramname">n</td><td>Maksymalna liczba </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Procent </dd></dl>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_a14cf12c9a8f460eb715d4e9798dedafc_icgraph.svg" width="432" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae6183c486b95548f3fc41992ff2af346" name="ae6183c486b95548f3fc41992ff2af346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6183c486b95548f3fc41992ff2af346">&#9670;&#160;</a></span>getStatusWątku()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int porownania.WalidacjaPlikówCSV.getStatusWątku </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Metoda zwracająca status wątku analitycznego </p><dl class="section return"><dt>Zwraca</dt><dd>Status wątku. </dd></dl>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_ae6183c486b95548f3fc41992ff2af346_icgraph.svg" width="736" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a082954eced190e91418d589e48cfae20" name="a082954eced190e91418d589e48cfae20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a082954eced190e91418d589e48cfae20">&#9670;&#160;</a></span>getStatusZapisu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int porownania.WalidacjaPlikówCSV.getStatusZapisu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Metoda zwracająca stan zapisu plików. </p><dl class="section return"><dt>Zwraca</dt><dd>Stan zapisu według stałych zdefiniowanych w klasie <a class="el" href="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html">WalidacjaPlikówCSV</a>. </dd></dl>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_a082954eced190e91418d589e48cfae20_icgraph.svg" width="472" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a5ce4b813658651ab77ab8f5b94b12a6b" name="a5ce4b813658651ab77ab8f5b94b12a6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ce4b813658651ab77ab8f5b94b12a6b">&#9670;&#160;</a></span>getTablicęPlikówPoprawnych()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classporownania_1_1PlikZwalidowany.html">PlikZwalidowany</a>[] porownania.WalidacjaPlikówCSV.getTablicęPlikówPoprawnych </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Metoda zwracająca tablicę plików CSV z poprawną walidacją. </p><dl class="section return"><dt>Zwraca</dt><dd>Tablica plików poprawnych (bez błędów) </dd></dl>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_a5ce4b813658651ab77ab8f5b94b12a6b_icgraph.svg" width="770" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a06f04fa5de0447a788775285f24793d1" name="a06f04fa5de0447a788775285f24793d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06f04fa5de0447a788775285f24793d1">&#9670;&#160;</a></span>run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void porownania.WalidacjaPlikówCSV.run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Metoda realizująca walidację jako osobny wątek. </p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_a06f04fa5de0447a788775285f24793d1_cgraph.svg" width="1758" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="adcb04c31c5f12de4db068168c2afddd6" name="adcb04c31c5f12de4db068168c2afddd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcb04c31c5f12de4db068168c2afddd6">&#9670;&#160;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String porownania.WalidacjaPlikówCSV.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Metoda zwracająca opis status walidacji. </p><dl class="section return"><dt>Zwraca</dt><dd>Opis rezultatu walidacji </dd></dl>
+
+</div>
+</div>
+<a id="ad812ef71b9e6e96509e8f09aa17e6198" name="ad812ef71b9e6e96509e8f09aa17e6198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad812ef71b9e6e96509e8f09aa17e6198">&#9670;&#160;</a></span>UtwórzKomunikat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">synchronized String porownania.WalidacjaPlikówCSV.UtwórzKomunikat </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Metoda generująca komunikat o rezultacie walidacji do pliku wynikowego </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Indeks pliku </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Opis rezultatu walidacji </dd></dl>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_ad812ef71b9e6e96509e8f09aa17e6198_icgraph.svg" width="667" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8b4be03b632ca1f032e85c29b20328fc" name="a8b4be03b632ca1f032e85c29b20328fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b4be03b632ca1f032e85c29b20328fc">&#9670;&#160;</a></span>ZapiszWyniki()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">synchronized void porownania.WalidacjaPlikówCSV.ZapiszWyniki </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Metoda zapisująca wyniki walidacji plików. </p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_a8b4be03b632ca1f032e85c29b20328fc_cgraph.svg" width="432" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1WalidacjaPlik_xC3_xB3wCSV_a8b4be03b632ca1f032e85c29b20328fc_icgraph.svg" width="432" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="a663daca82e9fbb03223af067071dc6b3" name="a663daca82e9fbb03223af067071dc6b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a663daca82e9fbb03223af067071dc6b3">&#9670;&#160;</a></span>BRAK_ZAPISYWANIA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean porownania.WalidacjaPlikówCSV.BRAK_ZAPISYWANIA = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Stała informująca o tym, że rezultat walidacji nie ma być zapisywany do pliku </p>
+
+</div>
+</div>
+<a id="af7155e909fec78e0618a91f4595bc32c" name="af7155e909fec78e0618a91f4595bc32c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7155e909fec78e0618a91f4595bc32c">&#9670;&#160;</a></span>BŁĄD_ZAPISU</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.WalidacjaPlikówCSV.BŁĄD_ZAPISU = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Błąd zapisu podczas walidacji </p>
+
+</div>
+</div>
+<a id="a9474c3f502c594abbcf48cc87cf9f3ea" name="a9474c3f502c594abbcf48cc87cf9f3ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9474c3f502c594abbcf48cc87cf9f3ea">&#9670;&#160;</a></span>CzyZapisywaćWalidację</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean porownania.WalidacjaPlikówCSV.CzyZapisywaćWalidację</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Informacja, czy zapisywać walidację do pliku </p>
+
+</div>
+</div>
+<a id="ab59f56f0f0643d254be2c60bcb7e149e" name="ab59f56f0f0643d254be2c60bcb7e149e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab59f56f0f0643d254be2c60bcb7e149e">&#9670;&#160;</a></span>kn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String porownania.WalidacjaPlikówCSV.kn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Znak końca linii w pliku tekstowyn </p>
+
+</div>
+</div>
+<a id="a41008aee248610e79776253291243832" name="a41008aee248610e79776253291243832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41008aee248610e79776253291243832">&#9670;&#160;</a></span>Kod</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.WalidacjaPlikówCSV.Kod</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Kod znaków w plikach CSV </p>
+
+</div>
+</div>
+<a id="ac8ec95f974380d384b7c5af3f99420b7" name="ac8ec95f974380d384b7c5af3f99420b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8ec95f974380d384b7c5af3f99420b7">&#9670;&#160;</a></span>NazwaPlikuZWynikami</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String porownania.WalidacjaPlikówCSV.NazwaPlikuZWynikami</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Nazwa pliku wyjściowego - z informacją o walidacji </p>
+
+</div>
+</div>
+<a id="adbebd65c68f4cd62062c841ad4853b11" name="adbebd65c68f4cd62062c841ad4853b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbebd65c68f4cd62062c841ad4853b11">&#9670;&#160;</a></span>NIE_UDAŁO_SIĘ_ZAMKNĄĆ_PLIKU</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.WalidacjaPlikówCSV.NIE_UDAŁO_SIĘ_ZAMKNĄĆ_PLIKU = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Nie udało się zamknąć pliku wynikowego walidacji CSV </p>
+
+</div>
+</div>
+<a id="a6bc5c7ae72e7e246a2a3b7f63e3d5292" name="a6bc5c7ae72e7e246a2a3b7f63e3d5292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc5c7ae72e7e246a2a3b7f63e3d5292">&#9670;&#160;</a></span>PasekPostępu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JProgressBar porownania.WalidacjaPlikówCSV.PasekPostępu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Pasek postępu </p>
+
+</div>
+</div>
+<a id="aa8684fe565ac1fcde11a0a24e34af4ca" name="aa8684fe565ac1fcde11a0a24e34af4ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8684fe565ac1fcde11a0a24e34af4ca">&#9670;&#160;</a></span>PLIK_OTWARTO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.WalidacjaPlikówCSV.PLIK_OTWARTO = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Plik z wynikami walidacji udało się otworzyć </p>
+
+</div>
+</div>
+<a id="a029d22ed7fc26e676830055e55c87f80" name="a029d22ed7fc26e676830055e55c87f80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a029d22ed7fc26e676830055e55c87f80">&#9670;&#160;</a></span>PLIKU_NIE_UDAŁO_SIĘ_OTWORZYĆ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.WalidacjaPlikówCSV.PLIKU_NIE_UDAŁO_SIĘ_OTWORZYĆ = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Pliku z walidacją nie udało się otworzyć </p>
+
+</div>
+</div>
+<a id="a490171d4d7c768d8271c70aab3f52853" name="a490171d4d7c768d8271c70aab3f52853"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a490171d4d7c768d8271c70aab3f52853">&#9670;&#160;</a></span>PO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int porownania.WalidacjaPlikówCSV.PO = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Walidacja zakończona </p>
+
+</div>
+</div>
+<a id="ae44d3c29441db3698e6bdd12bc02549a" name="ae44d3c29441db3698e6bdd12bc02549a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae44d3c29441db3698e6bdd12bc02549a">&#9670;&#160;</a></span>PO_MAIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int porownania.WalidacjaPlikówCSV.PO_MAIN = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Po przejściu głównej walidacji </p>
+
+</div>
+</div>
+<a id="a8cce480c29eec9b588f15e6b0d469fd1" name="a8cce480c29eec9b588f15e6b0d469fd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cce480c29eec9b588f15e6b0d469fd1">&#9670;&#160;</a></span>PRZED</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int porownania.WalidacjaPlikówCSV.PRZED = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Przed rozpoczęciem walidacji </p>
+
+</div>
+</div>
+<a id="a081158499d273db2f47b5c7582fd0a74" name="a081158499d273db2f47b5c7582fd0a74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a081158499d273db2f47b5c7582fd0a74">&#9670;&#160;</a></span>PRZED_ZAPISEM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.WalidacjaPlikówCSV.PRZED_ZAPISEM = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Plik z wynikami walidacji - przed zapisem </p>
+
+</div>
+</div>
+<a id="a0ecfd466fdde3a286bc5833c6bdf7066" name="a0ecfd466fdde3a286bc5833c6bdf7066"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ecfd466fdde3a286bc5833c6bdf7066">&#9670;&#160;</a></span>PUSTA_TABLICA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.WalidacjaPlikówCSV.PUSTA_TABLICA = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tablica z nazwami plików jest pusta! </p>
+
+</div>
+</div>
+<a id="a3ea63b18491cc7504993b754ecd99621" name="a3ea63b18491cc7504993b754ecd99621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ea63b18491cc7504993b754ecd99621">&#9670;&#160;</a></span>StatusWątku</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int porownania.WalidacjaPlikówCSV.StatusWątku</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Status przeprowadzania walidacji - dla wątku </p>
+
+</div>
+</div>
+<a id="a75a9cb5d599e56a68f7105144be72be2" name="a75a9cb5d599e56a68f7105144be72be2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75a9cb5d599e56a68f7105144be72be2">&#9670;&#160;</a></span>Statusy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String [] porownania.WalidacjaPlikówCSV.Statusy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Statusy plików CSV </p>
+
+</div>
+</div>
+<a id="a4aa11dd363900f06efcbe1918b5edb1e" name="a4aa11dd363900f06efcbe1918b5edb1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aa11dd363900f06efcbe1918b5edb1e">&#9670;&#160;</a></span>StatusZapisu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int porownania.WalidacjaPlikówCSV.StatusZapisu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Status zapisu do pliku wyjściowego </p>
+
+</div>
+</div>
+<a id="ae46bad6fca2bc1befae8e5eb4a675691" name="ae46bad6fca2bc1befae8e5eb4a675691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae46bad6fca2bc1befae8e5eb4a675691">&#9670;&#160;</a></span>TablicaNazwPlików</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String [] porownania.WalidacjaPlikówCSV.TablicaNazwPlików</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tablica z nazwami plików </p>
+
+</div>
+</div>
+<a id="a667f6b32eaa3014da6a0e748a8c7f312" name="a667f6b32eaa3014da6a0e748a8c7f312"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a667f6b32eaa3014da6a0e748a8c7f312">&#9670;&#160;</a></span>TablicaWynikówWalidacji</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classporownania_1_1PlikZwalidowany.html">PlikZwalidowany</a> [] porownania.WalidacjaPlikówCSV.TablicaWynikówWalidacji</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tablica z nazwami zwalidowanych plików </p>
+
+</div>
+</div>
+<a id="ac57048372db71909295d515851722cab" name="ac57048372db71909295d515851722cab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac57048372db71909295d515851722cab">&#9670;&#160;</a></span>W_TRAKCIE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int porownania.WalidacjaPlikówCSV.W_TRAKCIE = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >W trakcie walidackji </p>
+
+</div>
+</div>
+<a id="acaa62fe621916343b720ed3104b92fe9" name="acaa62fe621916343b720ed3104b92fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa62fe621916343b720ed3104b92fe9">&#9670;&#160;</a></span>WynikiWalidacji</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String [] porownania.WalidacjaPlikówCSV.WynikiWalidacji</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tablica z informacją o wynikacj walidacji </p>
+
+</div>
+</div>
+<a id="a4bf4ab8f2ec0c90ec94d97d9404bfa4c" name="a4bf4ab8f2ec0c90ec94d97d9404bfa4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf4ab8f2ec0c90ec94d97d9404bfa4c">&#9670;&#160;</a></span>ZAPIS_UDANY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.WalidacjaPlikówCSV.ZAPIS_UDANY = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Zapis wyników walidacji się powiódł </p>
+
+</div>
+</div>
+<a id="a83783fb06f4ef5297520b9ae78363c4a" name="a83783fb06f4ef5297520b9ae78363c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83783fb06f4ef5297520b9ae78363c4a">&#9670;&#160;</a></span>ZAPISYWANIE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean porownania.WalidacjaPlikówCSV.ZAPISYWANIE = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Stała informująca o zapisywaniu walidacji do pliku </p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z pliku:<ul>
+<li>porownania/src/porownania/<a class="el" href="WalidacjaPlik_xC3_xB3wCSV_8java.html">WalidacjaPlikówCSV.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+</small></address>
+</body>
+</html>

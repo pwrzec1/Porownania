@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['identyfikacja_0',['Identyfikacja',['../interfaceListaPodobienstw_1_1Identyfikacja.html',1,'ListaPodobienstw']]],
+  ['identyfikacja_2ejava_1',['Identyfikacja.java',['../Identyfikacja_8java.html',1,'']]],
+  ['ileelementów_2',['IleElementów',['../classListaPodobienstw_1_1ElementListy.html#a91231c7edb543860abbaeaa474f6083e',1,'ListaPodobienstw::ElementListy']]],
+  ['indeksgłówny_3',['IndeksGłówny',['../classMotywy_1_1TworzenieParW_xC4_x85tkowe.html#a0922f387f40e57a849e0e1181ab223f8',1,'Motywy::TworzenieParWątkowe']]],
+  ['indekskońcowy_4',['IndeksKońcowy',['../classMotywy_1_1TworzenieParW_xC4_x85tkowe.html#a8e3007d6c5d1620383c563c1973abaea',1,'Motywy::TworzenieParWątkowe']]],
+  ['indekspoczątkowy_5',['IndeksPoczątkowy',['../classMotywy_1_1TworzenieParW_xC4_x85tkowe.html#a8b70a104b397b9e505051af886c3dbad',1,'Motywy.TworzenieParWątkowe.IndeksPoczątkowy()'],['../classMotywy_1_1Motyw.html#a145ab03b42a0a5d4abf61f88ec75434c',1,'Motywy.Motyw.IndeksPoczątkowy()']]],
+  ['indekstekstowyx_6',['IndeksTekstowyX',['../classMotywy_1_1ParaSkr_xC3_xB3cona.html#ac23dbe441e0ae28b8b20ff0a8c0f575d',1,'Motywy::ParaSkrócona']]],
+  ['indekstekstowyy_7',['IndeksTekstowyY',['../classMotywy_1_1ParaSkr_xC3_xB3cona.html#a73376c7d0d2e3481cb54a41af1392505',1,'Motywy::ParaSkrócona']]],
+  ['indeksx_8',['IndeksX',['../classMotywy_1_1ParaSkr_xC3_xB3cona.html#aa3bd393f5c6b0364ff602564d2e6dc38',1,'Motywy::ParaSkrócona']]],
+  ['indeksy_9',['IndeksY',['../classMotywy_1_1ParaSkr_xC3_xB3cona.html#a95d49dd393b59009f4ce97ad745823e6',1,'Motywy::ParaSkrócona']]],
+  ['inicjalizacjakomórek_10',['InicjalizacjaKomórek',['../classStruktury_1_1Arkusz.html#a40bd131b907bec7a4d407e540c76a0ec',1,'Struktury::Arkusz']]],
+  ['inicjalizacjaokienplików_11',['InicjalizacjaOkienPlików',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#ac6224b0f500469c137817884fee998f8',1,'porownania::GłówneOknoProgramu']]],
+  ['inicjalizacjawstępnamenu_12',['InicjalizacjaWstępnaMenu',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#ac3ba41ea74f3bd870c628b9d4fd131a8',1,'porownania::GłówneOknoProgramu']]],
+  ['inicjalizujtablicęskróconą_13',['InicjalizujTablicęSkróconą',['../classMotywy_1_1Fragmenty.html#ad6dbd2d8ea7ecfeca7f68979356f7921',1,'Motywy::Fragmenty']]],
+  ['initcomponents_14',['initComponents',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#affc39cfd33c67de7a029e40427312663',1,'porownania::GłówneOknoProgramu']]],
+  ['interpreter_15',['Interpreter',['../classStruktury_1_1Interpreter.html#a4c2426a0220ccfab53ef88b4ef68e5ab',1,'Struktury.Interpreter.Interpreter()'],['../classStruktury_1_1Interpreter.html',1,'Struktury.Interpreter']]],
+  ['interpreter_2ejava_16',['Interpreter.java',['../Interpreter_8java.html',1,'']]],
+  ['interval_17',['interval',['../classStruktury_1_1Zdarzenie.html#a48a0a4a86213cb22107b759e0388f788',1,'Struktury::Zdarzenie']]],
+  ['interwal_5fniezerowy_18',['INTERWAL_NIEZEROWY',['../classStruktury_1_1Zdarzenie.html#a436c21db6a619c8896d821feec50337e',1,'Struktury::Zdarzenie']]],
+  ['interwal_5fzerowy_19',['INTERWAL_ZEROWY',['../classStruktury_1_1Zdarzenie.html#a50b90ea7162061f4c2f8b2b94045cd61',1,'Struktury::Zdarzenie']]],
+  ['iteracjeprogressbar_20',['IteracjeProgressBar',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#ae2c21e2e377a23fdb22d1eafe3d262c5',1,'porownania::GłówneOknoProgramu']]]
+];

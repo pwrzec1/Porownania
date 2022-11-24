@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['walidacja_0',['Walidacja',['../classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#aa4e6553fae95f6909614cbc003dd6ff5',1,'porownania::AnalizaPorównawcza']]],
+  ['walidacjakodowaniaznaków_1',['WalidacjaKodowaniaZnaków',['../classStruktury_1_1PlikCSV.html#a4537c22b2f2d5d2d9f38ac99a3b231a6',1,'Struktury::PlikCSV']]],
+  ['walidacjaliczb_2',['WalidacjaLiczb',['../classStruktury_1_1Interpreter.html#a25a48e8f946a2b064cbfef8be68e1820',1,'Struktury::Interpreter']]],
+  ['walidacjamenuactionperformed_3',['WalidacjaMenuActionPerformed',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#aeea1eaa9b895c6f7e4192d36dccb4036',1,'porownania::GłówneOknoProgramu']]],
+  ['walidacjamenumenuselected_4',['WalidacjaMenuMenuSelected',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#abd9613950101f78f3930bbf79fb02e24',1,'porownania::GłówneOknoProgramu']]],
+  ['walidacjaplikówcsv_5',['WalidacjaPlikówCSV',['../classporownania_1_1WalidacjaPlik_xC3_xB3wCSV.html#a1363509d9191c683e195e3dddcd87468',1,'porownania::WalidacjaPlikówCSV']]],
+  ['walidacjaplików_6',['WalidacjaPlików',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#a2cbda5114c2e6535a9c2eda6ab7c8750',1,'porownania::GłówneOknoProgramu']]],
+  ['wartośćlicznika_7',['WartośćLicznika',['../classListaPodobienstw_1_1Warto_xC5_x9B_xC4_x87Licznika.html#ad467ac3ba3e890a357851429d2f0ae33',1,'ListaPodobienstw::WartośćLicznika']]],
+  ['wczytajcałyplik_8',['WczytajCałyPLik',['../classStruktury_1_1PlikCSV.html#ad822fb4b09d4b763cefc7b9e59833182',1,'Struktury::PlikCSV']]],
+  ['wczytajdane_9',['WczytajDane',['../classStruktury_1_1PlikCSV.html#af927acf502973c4c1abb99e1d1995ccb',1,'Struktury::PlikCSV']]],
+  ['wczytajkatalogcsv_10',['WczytajKatalogCSV',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#afa4bb7b926964c68d8e876f5564fce36',1,'porownania::GłówneOknoProgramu']]],
+  ['wczytajplikdozapisuwalidacji_11',['WczytajPlikDoZapisuWalidacji',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#a9894b94e953226b8107ba38b9e841c0d',1,'porownania::GłówneOknoProgramu']]],
+  ['wczytajpojedynczyplikcsv_12',['WczytajPojedynczyPlikCSV',['../classporownania_1_1G_xC5_x82_xC3_xB3wneOknoProgramu.html#a3762b771d85c371f427a6f4724b1eb64',1,'porownania::GłówneOknoProgramu']]],
+  ['wyjątekdlawierszazmotywem_13',['WyjątekDlaWierszaZMotywem',['../classMotywy_1_1Wyj_xC4_x85tekDlaWierszaZMotywem.html#ae3e64ef378a60f5afe2cf30ef7999230',1,'Motywy::WyjątekDlaWierszaZMotywem']]],
+  ['wykonajkraba_14',['WykonajKraba',['../classMotywy_1_1Motyw.html#ac2cdd8da139f329cfc3faf36049f6a6a',1,'Motywy::Motyw']]],
+  ['wylicznanowointerwały_15',['WyliczNaNowoInterwały',['../classMotywy_1_1Motyw.html#a28609ed90ed8f9d585dba34d3bff4800',1,'Motywy::Motyw']]],
+  ['wylicznumer_16',['WyliczNumer',['../classStruktury_1_1SystemG_xC5_x82os.html#a153c509cbfecd926d3698c39d165cb74',1,'Struktury::SystemGłos']]],
+  ['wynikiuproszczone_17',['WynikiUproszczone',['../classMotywy_1_1WynikiUproszczone.html#a675a5be8b824ecd7f8133dc5d847e910',1,'Motywy::WynikiUproszczone']]],
+  ['wynikwyszukiwania_18',['WynikWyszukiwania',['../classporownania_1_1WynikWyszukiwania.html#a46b3e317f58603fdf184f13b26397dbe',1,'porownania::WynikWyszukiwania']]],
+  ['wypełnijtablicęskróconą_19',['WypełnijTablicęSkróconą',['../classMotywy_1_1Fragmenty.html#a1d32b57c48e3938e88c61779d38cb519',1,'Motywy::Fragmenty']]],
+  ['wyprowadźprocentprzetworzonychplików_20',['WyprowadźProcentPrzetworzonychPlików',['../classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a0470a1d1c72fbc7b887927d6bbde548c',1,'porownania::AnalizaPorównawcza']]]
+];

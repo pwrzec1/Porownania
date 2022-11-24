@@ -1,0 +1,2 @@
+ListaPodobienstw.WartośćLicznika
+ListaPodobienstw.ElementListy

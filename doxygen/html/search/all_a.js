@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['lewy_0',['Lewy',['../Wierzcho_xC5_x82ekBST_8java.html#a4a79a49fa627022ac77b8fb9f5f92c07',1,'WierzchołekBST.java']]],
+  ['liczba_5fparametrow_5fzdarzenia_1',['LICZBA_PARAMETROW_ZDARZENIA',['../classMotywy_1_1Motyw.html#a9db457a2527fcfdee9c76a3acf853a47',1,'Motywy::Motyw']]],
+  ['liczbaelementów_2',['LiczbaElementów',['../classMotywy_1_1Motyw.html#ac1600c549bfb352be83a49a813aa56df',1,'Motywy::Motyw']]],
+  ['liczbagłosów_3',['LiczbaGłosów',['../classMotywy_1_1ZnajdowanieMotyw_xC3_xB3wCa_xC5_x82o_xC5_x9B_xC4_x87.html#a7d174df0149653dc766b71b6ff43b6a5',1,'Motywy::ZnajdowanieMotywówCałość']]],
+  ['liczbakolumn_4',['LiczbaKolumn',['../classStruktury_1_1Arkusz.html#a6839c6e89f95bc4cbab26db48d1f2785',1,'Struktury::Arkusz']]],
+  ['liczbardzeni_5',['LiczbaRdzeni',['../classMotywy_1_1LiczeniePrzedzia_xC5_x82_xC3_xB3wW_xC4_x85tek.html#a256b18e7fbdef9a1665344b200e2ab33',1,'Motywy::LiczeniePrzedziałówWątek']]],
+  ['liczbawierszy_6',['LiczbaWierszy',['../classStruktury_1_1Arkusz.html#a1b670293b4cf4f9aea725dfb1b97758e',1,'Struktury::Arkusz']]],
+  ['liczbawszystkichiteracji_7',['LiczbaWszystkichIteracji',['../classMotywy_1_1Fragmenty.html#a5d248d87234b3f13c14434ac8f816f2d',1,'Motywy::Fragmenty']]],
+  ['liczbawątkówprocesora_8',['LiczbaWątkówProcesora',['../classMotywy_1_1LiczeniePrzedzia_xC5_x82_xC3_xB3wW_xC4_x85tek.html#aa190fa0ab8eb2d282013dbfff892fed9',1,'Motywy::LiczeniePrzedziałówWątek']]],
+  ['liczbazdarzeń_9',['LiczbaZdarzeń',['../classMotywy_1_1Fragmenty.html#aeac6f6002d50d1a7143f9223fdaf4a03',1,'Motywy.Fragmenty.LiczbaZdarzeń()'],['../classporownania_1_1Rezultat.html#a2fdaccedd93e31db0bc76a942a7abc2b',1,'porownania.Rezultat.LiczbaZdarzeń()']]],
+  ['liczenieprzedziałówwątek_2ejava_10',['LiczeniePrzedziałówWątek.java',['../LiczeniePrzedzia_xC5_x82_xC3_xB3wW_xC4_x85tek_8java.html',1,'']]],
+  ['liczenieprzedziałówwątek_11',['LiczeniePrzedziałówWątek',['../classMotywy_1_1LiczeniePrzedzia_xC5_x82_xC3_xB3wW_xC4_x85tek.html',1,'Motywy.LiczeniePrzedziałówWątek'],['../classMotywy_1_1LiczeniePrzedzia_xC5_x82_xC3_xB3wW_xC4_x85tek.html#a88072b96b97a81c7d6b32a64edebd5cd',1,'Motywy.LiczeniePrzedziałówWątek.LiczeniePrzedziałówWątek()']]],
+  ['licznikiteracji_12',['LicznikIteracji',['../classMotywy_1_1Fragmenty.html#a544d71ae34605b0e4f91e1ecf24807ce',1,'Motywy::Fragmenty']]],
+  ['listabłędów_13',['ListaBłędów',['../classStruktury_1_1Interpreter.html#a5de7fd49fc3409ab3094c05dc66844c2',1,'Struktury::Interpreter']]],
+  ['listap_14',['ListaP',['../classListaPodobienstw_1_1ListaP.html#ac288ec7f48ce6a03b14f7cf79b6677b1',1,'ListaPodobienstw.ListaP.ListaP()'],['../classListaPodobienstw_1_1ListaP.html',1,'ListaPodobienstw.ListaP&lt; T extends Identyfikacja &gt;']]],
+  ['listap_2ejava_15',['ListaP.java',['../ListaP_8java.html',1,'']]],
+  ['listaparmotywów_16',['ListaParMotywów',['../classMotywy_1_1Fragmenty.html#a0a8b43f55cf6704a5324f45fddaca9c8',1,'Motywy.Fragmenty.ListaParMotywów()'],['../classMotywy_1_1TworzenieParW_xC4_x85tkowe.html#a1fd47164d8f15fa32e3b7ce78410eb34',1,'Motywy.TworzenieParWątkowe.ListaParMotywów()']]],
+  ['listaplików_17',['ListaPlików',['../classporownania_1_1ListaPlik_xC3_xB3w.html',1,'porownania']]],
+  ['listaplików_2ejava_18',['ListaPlików.java',['../ListaPlik_xC3_xB3w_8java.html',1,'']]],
+  ['listaplików_19',['ListaPlików',['../classporownania_1_1ListaPlik_xC3_xB3w.html#abe20fd9a59f8836d11f5f826a7ce13ba',1,'porownania::ListaPlików']]],
+  ['listapodobienstw_20',['ListaPodobienstw',['../namespaceListaPodobienstw.html',1,'']]],
+  ['listawyników_21',['ListaWyników',['../classMotywy_1_1Por_xC3_xB3wnanieZZadanym.html#a6405de25fb5d865336f94ed6ac289c0b',1,'Motywy.PorównanieZZadanym.ListaWyników()'],['../classporownania_1_1WynikWyszukiwania.html#a7301210f707c9a718e71c81747a9fdba',1,'porownania.WynikWyszukiwania.ListaWyników()']]],
+  ['listawłaściwa_22',['ListaWłaściwa',['../classListaPodobienstw_1_1ListaP.html#a4798db3e5bf0228e06707e8640f8ecb8',1,'ListaPodobienstw::ListaP']]],
+  ['listazerowychróżnic_23',['ListaZerowychRóżnic',['../classporownania_1_1Rezultat.html#a6fef03597aee20adc8301fb52e927207',1,'porownania::Rezultat']]],
+  ['lokalizacjawarkuszu_24',['LokalizacjaWArkuszu',['../classMotywy_1_1WynikiUproszczone.html#af532f97e1384bc410a8db537c399d2c0',1,'Motywy::WynikiUproszczone']]]
+];

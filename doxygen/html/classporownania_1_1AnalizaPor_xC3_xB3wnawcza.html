@@ -1,0 +1,1228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Wyszukiwanie i porównywanie motywów muzycznych: Dokumentacja klasy porownania.AnalizaPorównawcza</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Wyszukiwanie i porównywanie motywów muzycznych<span id="projectnumber">&#160;1</span>
+   </div>
+   <div id="projectbrief">Wyszukiwanie motywów muzycznych w utworach polifonicznych. (c) Piotr Wrzeciono &amp; Anna Matuszewska, 2022</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceporownania.html">porownania</a></li><li class="navelem"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html">AnalizaPorównawcza</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pac-attribs">Atrybuty pakietu</a> &#124;
+<a href="#pri-methods">Metody prywatne</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="#pri-static-attribs">Statyczne atrybuty prywatne</a> &#124;
+<a href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle"><div class="title">Dokumentacja klasy porownania.AnalizaPorównawcza</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Diagram dziedziczenia dla porownania.AnalizaPorównawcza</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza__inherit__graph.svg" width="250" height="682"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Diagram współpracy dla porownania.AnalizaPorównawcza:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza__coll__graph.svg" width="1676" height="902"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a6a33bc5ddae3083796fac107cab275d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a6a33bc5ddae3083796fac107cab275d3">AnalizaPorównawcza</a> (String[] tab_plików, String nazwa_pliku_wynikowego, int kod_znaków, int min_długość, double waga_int, double waga_m, double max_r, JProgressBar walidacja_bar, JProgressBar analiza_bar, JTextArea pliki_pole, JTextField analiza_pole, JCheckBox tylko_pojedyncze, JProgressBar iteracje, JLabel etykieta, JCheckBox krab_box, JButton start_button, JCheckBox tylko_jedną_długość, JTextField motyw_pole, JCheckBox czy_szukać_motywu)</td></tr>
+<tr class="separator:a6a33bc5ddae3083796fac107cab275d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab052496ad6bbfee6626bab9a4259372b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#ab052496ad6bbfee6626bab9a4259372b">getStatusZapisywaczaDoPliku</a> ()</td></tr>
+<tr class="separator:ab052496ad6bbfee6626bab9a4259372b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53328be98262e3c28632593e4ea59c61"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a53328be98262e3c28632593e4ea59c61">getStanWątkaObliczeniowego</a> ()</td></tr>
+<tr class="separator:a53328be98262e3c28632593e4ea59c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fb7b99f4ed968c3c62c6fa132b19938"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a4fb7b99f4ed968c3c62c6fa132b19938">run</a> ()</td></tr>
+<tr class="separator:a4fb7b99f4ed968c3c62c6fa132b19938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-attribs" name="pac-attribs"></a>
+Atrybuty pakietu</h2></td></tr>
+<tr class="memitem:a82d85ab2f369cce8a59a5cab73f37a5c"><td class="memItemLeft" align="right" valign="top">JTextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a82d85ab2f369cce8a59a5cab73f37a5c">MotyDoWyszukaniaTextField</a></td></tr>
+<tr class="separator:a82d85ab2f369cce8a59a5cab73f37a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab8e6e5580161c597301d59b6b8273e"><td class="memItemLeft" align="right" valign="top">JCheckBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#aeab8e6e5580161c597301d59b6b8273e">CzySzukaćMotywuBox</a></td></tr>
+<tr class="separator:aeab8e6e5580161c597301d59b6b8273e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Metody prywatne</h2></td></tr>
+<tr class="memitem:aa4e6553fae95f6909614cbc003dd6ff5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#aa4e6553fae95f6909614cbc003dd6ff5">Walidacja</a> ()</td></tr>
+<tr class="separator:aa4e6553fae95f6909614cbc003dd6ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd0ccc7e3c87f39d7cb6a59a7f8d9fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a5dd0ccc7e3c87f39d7cb6a59a7f8d9fc">PokażTablicęPlików</a> ()</td></tr>
+<tr class="separator:a5dd0ccc7e3c87f39d7cb6a59a7f8d9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4afbd6e8809f95cb53e3014c9addcba1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a4afbd6e8809f95cb53e3014c9addcba1">ObliczProcent</a> (int i, int ile)</td></tr>
+<tr class="separator:a4afbd6e8809f95cb53e3014c9addcba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0470a1d1c72fbc7b887927d6bbde548c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a0470a1d1c72fbc7b887927d6bbde548c">WyprowadźProcentPrzetworzonychPlików</a> (int i, int ile)</td></tr>
+<tr class="separator:a0470a1d1c72fbc7b887927d6bbde548c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:a8015e986dfed6b2983b19832d29c3fd7"><td class="memItemLeft" align="right" valign="top">final JProgressBar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a8015e986dfed6b2983b19832d29c3fd7">PasekPostępuWalidacji</a></td></tr>
+<tr class="separator:a8015e986dfed6b2983b19832d29c3fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec80c88516183ae5b76114f11d99b08"><td class="memItemLeft" align="right" valign="top">final JProgressBar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a1ec80c88516183ae5b76114f11d99b08">PasekPostępuAnalizy</a></td></tr>
+<tr class="separator:a1ec80c88516183ae5b76114f11d99b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed56caf6d5a5dfae320f25ca611a9c9"><td class="memItemLeft" align="right" valign="top">final JTextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#abed56caf6d5a5dfae320f25ca611a9c9">PoleTekstoweAnalizy</a></td></tr>
+<tr class="separator:abed56caf6d5a5dfae320f25ca611a9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ea349d6510a364bad3ba2360a8a9684"><td class="memItemLeft" align="right" valign="top">final JTextArea&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a1ea349d6510a364bad3ba2360a8a9684">PoleTekstoweDlaNazwyPliku</a></td></tr>
+<tr class="separator:a1ea349d6510a364bad3ba2360a8a9684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a253da5f9d904acdb7dbf5cc666dda43a"><td class="memItemLeft" align="right" valign="top">final JCheckBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a253da5f9d904acdb7dbf5cc666dda43a">TylkoPojedyncze</a></td></tr>
+<tr class="separator:a253da5f9d904acdb7dbf5cc666dda43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8149f462bf5a3dcf52303fa0e2538043"><td class="memItemLeft" align="right" valign="top">final JProgressBar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a8149f462bf5a3dcf52303fa0e2538043">PasekIteracji</a></td></tr>
+<tr class="separator:a8149f462bf5a3dcf52303fa0e2538043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd5232e0ffeb72c68e2286e3bff8489"><td class="memItemLeft" align="right" valign="top">final JLabel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#adcd5232e0ffeb72c68e2286e3bff8489">EtykietaPodPaskiemPostępu</a></td></tr>
+<tr class="separator:adcd5232e0ffeb72c68e2286e3bff8489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aace43525b3e8b95bf93d9e3e03f9a38b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classporownania_1_1PlikZwalidowany.html">PlikZwalidowany</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#aace43525b3e8b95bf93d9e3e03f9a38b">TablicaPlików</a></td></tr>
+<tr class="separator:aace43525b3e8b95bf93d9e3e03f9a38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb4bd5ebcf2e7e9703c788b972929852"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#adb4bd5ebcf2e7e9703c788b972929852">PlikWynikowy</a></td></tr>
+<tr class="separator:adb4bd5ebcf2e7e9703c788b972929852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1d9ecb4275d4e0de5dd2f2a0efbecb0"><td class="memItemLeft" align="right" valign="top">final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#ad1d9ecb4275d4e0de5dd2f2a0efbecb0">TablicaNazwPlików</a></td></tr>
+<tr class="separator:ad1d9ecb4275d4e0de5dd2f2a0efbecb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab3a31424afbc85ead43e5eb27941c5"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a6ab3a31424afbc85ead43e5eb27941c5">KodowanieZnaków</a></td></tr>
+<tr class="separator:a6ab3a31424afbc85ead43e5eb27941c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e590e538c92c3d09d5740cebea2293f"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a7e590e538c92c3d09d5740cebea2293f">MinimalnaDługość</a></td></tr>
+<tr class="separator:a7e590e538c92c3d09d5740cebea2293f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af49eec229a2f1f36dcf92e6ceaca12c2"><td class="memItemLeft" align="right" valign="top">final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#af49eec229a2f1f36dcf92e6ceaca12c2">WagaInterwałowa</a></td></tr>
+<tr class="separator:af49eec229a2f1f36dcf92e6ceaca12c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c337647c3caad700f514d9fa94164fb"><td class="memItemLeft" align="right" valign="top">final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a0c337647c3caad700f514d9fa94164fb">WagaMetryczna</a></td></tr>
+<tr class="separator:a0c337647c3caad700f514d9fa94164fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c537f98a32e10de9d19dccb270b5e80"><td class="memItemLeft" align="right" valign="top">final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a2c537f98a32e10de9d19dccb270b5e80">MaksymalnaRóżnica</a></td></tr>
+<tr class="separator:a2c537f98a32e10de9d19dccb270b5e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65a7891c5d2ae0331b91ebca2d81e157"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a65a7891c5d2ae0331b91ebca2d81e157">StanWątku</a></td></tr>
+<tr class="separator:a65a7891c5d2ae0331b91ebca2d81e157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b3c095201b4946182f581e747184624"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a3b3c095201b4946182f581e747184624">TekstPierwotny</a></td></tr>
+<tr class="separator:a3b3c095201b4946182f581e747184624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23be309f4ff8fac902639047f02eff3f"><td class="memItemLeft" align="right" valign="top">final JCheckBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a23be309f4ff8fac902639047f02eff3f">KrabBox</a></td></tr>
+<tr class="separator:a23be309f4ff8fac902639047f02eff3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced22353dace987252ff04f94b524cd1"><td class="memItemLeft" align="right" valign="top">final JCheckBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#aced22353dace987252ff04f94b524cd1">JednaDługośćBox</a></td></tr>
+<tr class="separator:aced22353dace987252ff04f94b524cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb65090c67e9ac574621d6eed33f8ce9"><td class="memItemLeft" align="right" valign="top">final JButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#abb65090c67e9ac574621d6eed33f8ce9">StartButton</a></td></tr>
+<tr class="separator:abb65090c67e9ac574621d6eed33f8ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68232a89c6e9523c52752cc141895aa4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a68232a89c6e9523c52752cc141895aa4">WynikiDoZapisu</a></td></tr>
+<tr class="separator:a68232a89c6e9523c52752cc141895aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08c4b89993c874169e4cf6a6efa37b6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classporownania_1_1ZapisywanieTekstuDoPliku.html">ZapisywanieTekstuDoPliku</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a08c4b89993c874169e4cf6a6efa37b6f">ZapisywaczDoPliku</a></td></tr>
+<tr class="separator:a08c4b89993c874169e4cf6a6efa37b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e7a62a6a4c2d7ae96c1692352b9f957"><td class="memItemLeft" align="right" valign="top">final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a1e7a62a6a4c2d7ae96c1692352b9f957">CzyTylkoJednąDługość</a></td></tr>
+<tr class="separator:a1e7a62a6a4c2d7ae96c1692352b9f957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Statyczne atrybuty prywatne</h2></td></tr>
+<tr class="memitem:a99d8e0e7ee553097cb505ef294065c9d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a99d8e0e7ee553097cb505ef294065c9d">PRZED_OBLICZENIAMI</a> = 0</td></tr>
+<tr class="separator:a99d8e0e7ee553097cb505ef294065c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a000486c8cb21e6ed0f0effca7fc6b68d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a000486c8cb21e6ed0f0effca7fc6b68d">W_TRAKCIE_OBLICZEŃ</a> = 1</td></tr>
+<tr class="separator:a000486c8cb21e6ed0f0effca7fc6b68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ddab2d8877c766310af230844fee6f2"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classporownania_1_1AnalizaPor_xC3_xB3wnawcza.html#a2ddab2d8877c766310af230844fee6f2">PO_OBLICZENIACH</a> = 2</td></tr>
+<tr class="separator:a2ddab2d8877c766310af230844fee6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p >Klasa służąca do analizy porównawczej motywów muzycznych z plików CSV uprzednio zwalidowanych. </p><dl class="section author"><dt>Autor</dt><dd>Piotr Wrzeciono </dd></dl>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="a6a33bc5ddae3083796fac107cab275d3" name="a6a33bc5ddae3083796fac107cab275d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a33bc5ddae3083796fac107cab275d3">&#9670;&#160;</a></span>AnalizaPorównawcza()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">porownania.AnalizaPorównawcza.AnalizaPorównawcza </td>
+          <td>(</td>
+          <td class="paramtype">String[]&#160;</td>
+          <td class="paramname"><em>tab_plików</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>nazwa_pliku_wynikowego</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>kod_znaków</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>min_długość</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>waga_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>waga_m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JProgressBar&#160;</td>
+          <td class="paramname"><em>walidacja_bar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JProgressBar&#160;</td>
+          <td class="paramname"><em>analiza_bar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JTextArea&#160;</td>
+          <td class="paramname"><em>pliki_pole</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JTextField&#160;</td>
+          <td class="paramname"><em>analiza_pole</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JCheckBox&#160;</td>
+          <td class="paramname"><em>tylko_pojedyncze</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JProgressBar&#160;</td>
+          <td class="paramname"><em>iteracje</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JLabel&#160;</td>
+          <td class="paramname"><em>etykieta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JCheckBox&#160;</td>
+          <td class="paramname"><em>krab_box</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JButton&#160;</td>
+          <td class="paramname"><em>start_button</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JCheckBox&#160;</td>
+          <td class="paramname"><em>tylko_jedną_długość</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JTextField&#160;</td>
+          <td class="paramname"><em>motyw_pole</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JCheckBox&#160;</td>
+          <td class="paramname"><em>czy_szukać_motywu</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Konstruktor Analizy porównawczej dla motywów muzycznych. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tab_plików</td><td>Tablica z nazwami plików CSV </td></tr>
+    <tr><td class="paramname">nazwa_pliku_wynikowego</td><td>Nazwa pliku wynikowego </td></tr>
+    <tr><td class="paramname">kod_znaków</td><td>Kodowanie znaków według klasy PlikCSV. </td></tr>
+    <tr><td class="paramname">min_długość</td><td>Minimalna liczba zdarzeń Humdrum w motywie </td></tr>
+    <tr><td class="paramname">waga_int</td><td>Wartość wagi interwałowej </td></tr>
+    <tr><td class="paramname">waga_m</td><td>Wartość wagi metrycznej </td></tr>
+    <tr><td class="paramname">max_r</td><td>Maksymalna dopuszczalna różnica pomiędzy motywami </td></tr>
+    <tr><td class="paramname">walidacja_bar</td><td>Pasek posępu dla walidacji </td></tr>
+    <tr><td class="paramname">analiza_bar</td><td>Pasek postępu dla analizy </td></tr>
+    <tr><td class="paramname">pliki_pole</td><td>Pole tekstowe do wyświetlania nazwy pliku </td></tr>
+    <tr><td class="paramname">analiza_pole</td><td>POle tekstowe do informowania o stanie przetwarzania pliku. </td></tr>
+    <tr><td class="paramname">tylko_pojedyncze</td><td>Referencja do obiektu, który informuje program, że ma analizować wyłącznie pojedyncze głosy </td></tr>
+    <tr><td class="paramname">iteracje</td><td>Referencja do paska postępu dla iteracji </td></tr>
+    <tr><td class="paramname">etykieta</td><td>Label pod paskiem postępu. </td></tr>
+    <tr><td class="paramname">krab_box</td><td>CheckBox służący do wyszukiwania formy krab (rak). </td></tr>
+    <tr><td class="paramname">start_button</td><td>Przycisk startu. </td></tr>
+    <tr><td class="paramname">tylko_jedną_długość</td><td>Wyszukujemy tylko motywy o zadanej długości. </td></tr>
+    <tr><td class="paramname">motyw_pole</td><td>Pole do wyszukiwania zadanego motywu </td></tr>
+    <tr><td class="paramname">czy_szukać_motywu</td><td>Checkbox czy szukać motywu. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza_a6a33bc5ddae3083796fac107cab275d3_cgraph.svg" width="770" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="a53328be98262e3c28632593e4ea59c61" name="a53328be98262e3c28632593e4ea59c61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53328be98262e3c28632593e4ea59c61">&#9670;&#160;</a></span>getStanWątkaObliczeniowego()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int porownania.AnalizaPorównawcza.getStanWątkaObliczeniowego </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Metoda zwracająca stan wątka obliczeniowego </p><dl class="section return"><dt>Zwraca</dt><dd>Bierzący stan </dd></dl>
+
+</div>
+</div>
+<a id="ab052496ad6bbfee6626bab9a4259372b" name="ab052496ad6bbfee6626bab9a4259372b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab052496ad6bbfee6626bab9a4259372b">&#9670;&#160;</a></span>getStatusZapisywaczaDoPliku()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int porownania.AnalizaPorównawcza.getStatusZapisywaczaDoPliku </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Metoda zwracająca status zapisywacza do pliku </p><dl class="section return"><dt>Zwraca</dt><dd>Status zapisywacza. </dd></dl>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza_ab052496ad6bbfee6626bab9a4259372b_cgraph.svg" width="500" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza_ab052496ad6bbfee6626bab9a4259372b_icgraph.svg" width="524" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4afbd6e8809f95cb53e3014c9addcba1" name="a4afbd6e8809f95cb53e3014c9addcba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4afbd6e8809f95cb53e3014c9addcba1">&#9670;&#160;</a></span>ObliczProcent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int porownania.AnalizaPorównawcza.ObliczProcent </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Metoda obliczająca procent całości. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Liczba czegoś </td></tr>
+    <tr><td class="paramname">ile</td><td>100 procent wszystkiego </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Procent całkowity. </dd></dl>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza_a4afbd6e8809f95cb53e3014c9addcba1_icgraph.svg" width="835" height="79"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a5dd0ccc7e3c87f39d7cb6a59a7f8d9fc" name="a5dd0ccc7e3c87f39d7cb6a59a7f8d9fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dd0ccc7e3c87f39d7cb6a59a7f8d9fc">&#9670;&#160;</a></span>PokażTablicęPlików()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void porownania.AnalizaPorównawcza.PokażTablicęPlików </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Metoda służąca do pokazywania tablicy plików zwalidowanych. </p>
+
+</div>
+</div>
+<a id="a4fb7b99f4ed968c3c62c6fa132b19938" name="a4fb7b99f4ed968c3c62c6fa132b19938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fb7b99f4ed968c3c62c6fa132b19938">&#9670;&#160;</a></span>run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void porownania.AnalizaPorównawcza.run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Główna metoda wątku obliczeniowego </p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza_a4fb7b99f4ed968c3c62c6fa132b19938_cgraph.svg" width="1920" height="1614"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa4e6553fae95f6909614cbc003dd6ff5" name="aa4e6553fae95f6909614cbc003dd6ff5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4e6553fae95f6909614cbc003dd6ff5">&#9670;&#160;</a></span>Walidacja()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void porownania.AnalizaPorównawcza.Walidacja </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Metoda służąca do waliacji plików i generacji tablicy z prawidłowymi plikami CSV. Metoda testowa. </p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza_aa4e6553fae95f6909614cbc003dd6ff5_cgraph.svg" width="500" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza_aa4e6553fae95f6909614cbc003dd6ff5_icgraph.svg" width="502" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a0470a1d1c72fbc7b887927d6bbde548c" name="a0470a1d1c72fbc7b887927d6bbde548c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0470a1d1c72fbc7b887927d6bbde548c">&#9670;&#160;</a></span>WyprowadźProcentPrzetworzonychPlików()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void porownania.AnalizaPorównawcza.WyprowadźProcentPrzetworzonychPlików </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza_a0470a1d1c72fbc7b887927d6bbde548c_cgraph.svg" width="548" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classporownania_1_1AnalizaPor_xC3_xB3wnawcza_a0470a1d1c72fbc7b887927d6bbde548c_icgraph.svg" width="566" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="aeab8e6e5580161c597301d59b6b8273e" name="aeab8e6e5580161c597301d59b6b8273e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeab8e6e5580161c597301d59b6b8273e">&#9670;&#160;</a></span>CzySzukaćMotywuBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JCheckBox porownania.AnalizaPorównawcza.CzySzukaćMotywuBox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Checkbox do uruchomienia wyszukiwania motywu. </p>
+
+</div>
+</div>
+<a id="a1e7a62a6a4c2d7ae96c1692352b9f957" name="a1e7a62a6a4c2d7ae96c1692352b9f957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e7a62a6a4c2d7ae96c1692352b9f957">&#9670;&#160;</a></span>CzyTylkoJednąDługość</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean porownania.AnalizaPorównawcza.CzyTylkoJednąDługość</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Wyszukiwanie motywu o pojedynczej długości: <b>true</b>, gdy szukamy tylko motywów o zadanej długości. <b>false</b>, gdy szukamy motywów o dowolnej długości. </p>
+
+</div>
+</div>
+<a id="adcd5232e0ffeb72c68e2286e3bff8489" name="adcd5232e0ffeb72c68e2286e3bff8489"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcd5232e0ffeb72c68e2286e3bff8489">&#9670;&#160;</a></span>EtykietaPodPaskiemPostępu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JLabel porownania.AnalizaPorównawcza.EtykietaPodPaskiemPostępu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Label do podpisu pod paskiem postępu </p>
+
+</div>
+</div>
+<a id="aced22353dace987252ff04f94b524cd1" name="aced22353dace987252ff04f94b524cd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced22353dace987252ff04f94b524cd1">&#9670;&#160;</a></span>JednaDługośćBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JCheckBox porownania.AnalizaPorównawcza.JednaDługośćBox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Checkbox do pojedynczej długości </p>
+
+</div>
+</div>
+<a id="a6ab3a31424afbc85ead43e5eb27941c5" name="a6ab3a31424afbc85ead43e5eb27941c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ab3a31424afbc85ead43e5eb27941c5">&#9670;&#160;</a></span>KodowanieZnaków</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.AnalizaPorównawcza.KodowanieZnaków</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Kodowanie znaków w pliku CSV </p>
+
+</div>
+</div>
+<a id="a23be309f4ff8fac902639047f02eff3f" name="a23be309f4ff8fac902639047f02eff3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23be309f4ff8fac902639047f02eff3f">&#9670;&#160;</a></span>KrabBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JCheckBox porownania.AnalizaPorównawcza.KrabBox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Checkbox do kraba </p>
+
+</div>
+</div>
+<a id="a2c537f98a32e10de9d19dccb270b5e80" name="a2c537f98a32e10de9d19dccb270b5e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c537f98a32e10de9d19dccb270b5e80">&#9670;&#160;</a></span>MaksymalnaRóżnica</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double porownania.AnalizaPorównawcza.MaksymalnaRóżnica</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Maksymalna akceptowanla różnica pomiędzy motywami </p>
+
+</div>
+</div>
+<a id="a7e590e538c92c3d09d5740cebea2293f" name="a7e590e538c92c3d09d5740cebea2293f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e590e538c92c3d09d5740cebea2293f">&#9670;&#160;</a></span>MinimalnaDługość</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.AnalizaPorównawcza.MinimalnaDługość</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Minimalna liczba zdarzeń Humdrum </p>
+
+</div>
+</div>
+<a id="a82d85ab2f369cce8a59a5cab73f37a5c" name="a82d85ab2f369cce8a59a5cab73f37a5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82d85ab2f369cce8a59a5cab73f37a5c">&#9670;&#160;</a></span>MotyDoWyszukaniaTextField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JTextField porownania.AnalizaPorównawcza.MotyDoWyszukaniaTextField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Pole do zapisu motywu </p>
+
+</div>
+</div>
+<a id="a8149f462bf5a3dcf52303fa0e2538043" name="a8149f462bf5a3dcf52303fa0e2538043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8149f462bf5a3dcf52303fa0e2538043">&#9670;&#160;</a></span>PasekIteracji</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JProgressBar porownania.AnalizaPorównawcza.PasekIteracji</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Progress bar do iteracji </p>
+
+</div>
+</div>
+<a id="a1ec80c88516183ae5b76114f11d99b08" name="a1ec80c88516183ae5b76114f11d99b08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ec80c88516183ae5b76114f11d99b08">&#9670;&#160;</a></span>PasekPostępuAnalizy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JProgressBar porownania.AnalizaPorównawcza.PasekPostępuAnalizy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Pasek postępu informujący o procencie przetworzonych plików </p>
+
+</div>
+</div>
+<a id="a8015e986dfed6b2983b19832d29c3fd7" name="a8015e986dfed6b2983b19832d29c3fd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8015e986dfed6b2983b19832d29c3fd7">&#9670;&#160;</a></span>PasekPostępuWalidacji</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JProgressBar porownania.AnalizaPorównawcza.PasekPostępuWalidacji</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Pasek postępu walidacji </p>
+
+</div>
+</div>
+<a id="adb4bd5ebcf2e7e9703c788b972929852" name="adb4bd5ebcf2e7e9703c788b972929852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb4bd5ebcf2e7e9703c788b972929852">&#9670;&#160;</a></span>PlikWynikowy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String porownania.AnalizaPorównawcza.PlikWynikowy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Nazwa pliku wyjściowego (z wynikami) </p>
+
+</div>
+</div>
+<a id="a2ddab2d8877c766310af230844fee6f2" name="a2ddab2d8877c766310af230844fee6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ddab2d8877c766310af230844fee6f2">&#9670;&#160;</a></span>PO_OBLICZENIACH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.AnalizaPorównawcza.PO_OBLICZENIACH = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Obliczenia zostały zakończone </p>
+
+</div>
+</div>
+<a id="abed56caf6d5a5dfae320f25ca611a9c9" name="abed56caf6d5a5dfae320f25ca611a9c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abed56caf6d5a5dfae320f25ca611a9c9">&#9670;&#160;</a></span>PoleTekstoweAnalizy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JTextField porownania.AnalizaPorównawcza.PoleTekstoweAnalizy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Pole tekstowe służące do wyprowadzenia nazwy pliku aktualnie przetwarzanego </p>
+
+</div>
+</div>
+<a id="a1ea349d6510a364bad3ba2360a8a9684" name="a1ea349d6510a364bad3ba2360a8a9684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ea349d6510a364bad3ba2360a8a9684">&#9670;&#160;</a></span>PoleTekstoweDlaNazwyPliku</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JTextArea porownania.AnalizaPorównawcza.PoleTekstoweDlaNazwyPliku</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Pole tekstowe służące do wyświetlania statusu przetwarzania </p>
+
+</div>
+</div>
+<a id="a99d8e0e7ee553097cb505ef294065c9d" name="a99d8e0e7ee553097cb505ef294065c9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99d8e0e7ee553097cb505ef294065c9d">&#9670;&#160;</a></span>PRZED_OBLICZENIAMI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.AnalizaPorównawcza.PRZED_OBLICZENIAMI = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Obliczenia jeszcze nie zostały rozpoczęte </p>
+
+</div>
+</div>
+<a id="a65a7891c5d2ae0331b91ebca2d81e157" name="a65a7891c5d2ae0331b91ebca2d81e157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65a7891c5d2ae0331b91ebca2d81e157">&#9670;&#160;</a></span>StanWątku</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int porownania.AnalizaPorównawcza.StanWątku</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Stan wątku obliczeniowego </p>
+
+</div>
+</div>
+<a id="abb65090c67e9ac574621d6eed33f8ce9" name="abb65090c67e9ac574621d6eed33f8ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb65090c67e9ac574621d6eed33f8ce9">&#9670;&#160;</a></span>StartButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JButton porownania.AnalizaPorównawcza.StartButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Przycisk Startu obliczeń </p>
+
+</div>
+</div>
+<a id="ad1d9ecb4275d4e0de5dd2f2a0efbecb0" name="ad1d9ecb4275d4e0de5dd2f2a0efbecb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1d9ecb4275d4e0de5dd2f2a0efbecb0">&#9670;&#160;</a></span>TablicaNazwPlików</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String [] porownania.AnalizaPorównawcza.TablicaNazwPlików</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tablica z nazwami plików CSV </p>
+
+</div>
+</div>
+<a id="aace43525b3e8b95bf93d9e3e03f9a38b" name="aace43525b3e8b95bf93d9e3e03f9a38b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aace43525b3e8b95bf93d9e3e03f9a38b">&#9670;&#160;</a></span>TablicaPlików</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classporownania_1_1PlikZwalidowany.html">PlikZwalidowany</a> [] porownania.AnalizaPorównawcza.TablicaPlików</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tablica plików poprawnie zwalidowanych </p>
+
+</div>
+</div>
+<a id="a3b3c095201b4946182f581e747184624" name="a3b3c095201b4946182f581e747184624"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b3c095201b4946182f581e747184624">&#9670;&#160;</a></span>TekstPierwotny</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String porownania.AnalizaPorównawcza.TekstPierwotny</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tekst pierwotny w podpisie (label) pod procentem obliczeń </p>
+
+</div>
+</div>
+<a id="a253da5f9d904acdb7dbf5cc666dda43a" name="a253da5f9d904acdb7dbf5cc666dda43a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a253da5f9d904acdb7dbf5cc666dda43a">&#9670;&#160;</a></span>TylkoPojedyncze</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final JCheckBox porownania.AnalizaPorównawcza.TylkoPojedyncze</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Analiza wyłącznie pojedynczych głosów - na szybkość </p>
+
+</div>
+</div>
+<a id="a000486c8cb21e6ed0f0effca7fc6b68d" name="a000486c8cb21e6ed0f0effca7fc6b68d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a000486c8cb21e6ed0f0effca7fc6b68d">&#9670;&#160;</a></span>W_TRAKCIE_OBLICZEŃ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int porownania.AnalizaPorównawcza.W_TRAKCIE_OBLICZEŃ = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >W trakcie obliczeń </p>
+
+</div>
+</div>
+<a id="af49eec229a2f1f36dcf92e6ceaca12c2" name="af49eec229a2f1f36dcf92e6ceaca12c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af49eec229a2f1f36dcf92e6ceaca12c2">&#9670;&#160;</a></span>WagaInterwałowa</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double porownania.AnalizaPorównawcza.WagaInterwałowa</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Wartość wagi interwałowej </p>
+
+</div>
+</div>
+<a id="a0c337647c3caad700f514d9fa94164fb" name="a0c337647c3caad700f514d9fa94164fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c337647c3caad700f514d9fa94164fb">&#9670;&#160;</a></span>WagaMetryczna</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double porownania.AnalizaPorównawcza.WagaMetryczna</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Wartość wagi metrycznej </p>
+
+</div>
+</div>
+<a id="a68232a89c6e9523c52752cc141895aa4" name="a68232a89c6e9523c52752cc141895aa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68232a89c6e9523c52752cc141895aa4">&#9670;&#160;</a></span>WynikiDoZapisu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String porownania.AnalizaPorównawcza.WynikiDoZapisu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tekst do zapisu do pliku wynikowego </p>
+
+</div>
+</div>
+<a id="a08c4b89993c874169e4cf6a6efa37b6f" name="a08c4b89993c874169e4cf6a6efa37b6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08c4b89993c874169e4cf6a6efa37b6f">&#9670;&#160;</a></span>ZapisywaczDoPliku</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classporownania_1_1ZapisywanieTekstuDoPliku.html">ZapisywanieTekstuDoPliku</a> porownania.AnalizaPorównawcza.ZapisywaczDoPliku</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Plik do zapisu wyników </p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z pliku:<ul>
+<li>porownania/src/porownania/<a class="el" href="AnalizaPor_xC3_xB3wnawcza_8java.html">AnalizaPorównawcza.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+</small></address>
+</body>
+</html>

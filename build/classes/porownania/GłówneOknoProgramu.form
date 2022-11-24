@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="MenuProgramu">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="NazwaWynikiAnalizyPlikMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pliki"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="PojedynczyPllkCSVMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pojedynczy plik CSV"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PojedynczyPllkCSVMenuActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="KatalogCSVMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ca&#x142;y katalog z plikami CSV"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="KatalogCSVMenuActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="PlikWalidacjaMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Plik z wynikami walidacji"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PlikWalidacjaMenuActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Plik z wynikami analizy"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="KoniecMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Koniec"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="KoniecMenuActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="WalidacjaMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Walidacja"/>
+          </Properties>
+          <Events>
+            <EventHandler event="menuSelected" listener="javax.swing.event.MenuListener" parameters="javax.swing.event.MenuEvent" handler="WalidacjaMenuMenuSelected"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="WalidacjaMenuActionPerformed"/>
+          </Events>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Por&#xf3;wnywanie motyw&#xf3;w muzycznych"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="MenuProgramu"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="GłównyPanelOkna" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="GłównyPanelOkna" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="8" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="G&#x142;&#xf3;wnyPanelOkna">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="PostępObliczeńProgressBar" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="315" max="32767" attributes="0"/>
+                          <Component id="KodowanieZnkakówLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="ProgresOgólnyProgressBar" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jSeparator1" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="MinimalnaLiczbaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="WagaInterwałowaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="WagaMetrycznaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="MaksymalnaRóżnicaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="MinimalnaLiczbaTextField" pref="179" max="32767" attributes="0"/>
+                              <Component id="MiaraInterwałowaWagaTextField" max="32767" attributes="0"/>
+                              <Component id="MiaraMetrycznaWagaTextField" max="32767" attributes="0"/>
+                              <Component id="MaksymalnaRóżnicaTextField" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="StartObliczeńButton" max="32767" attributes="0"/>
+                              <Component id="PojedynczeCheckBox" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="KrabCheckBox" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TylkoJednąDługośćCheckBox" min="-2" pref="229" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="KomunikatyTextField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="IteracjeProgressBar" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="ProcentWaliacjiLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="ProcentPrzetworzonychPlikówLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="ProcentIteracjaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="MotywDoWyszukaniaJLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="CzySzukaćMotywuCheckBox" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="MotywDoSzukaniaTextField" pref="529" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="KodowanieZnkakówLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="43" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Component id="ProgresOgólnyProgressBar" min="-2" pref="36" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="ProcentWaliacjiLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="20" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="MinimalnaLiczbaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="MinimalnaLiczbaTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TylkoJednąDługośćCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="WagaInterwałowaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="MiaraInterwałowaWagaTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="PojedynczeCheckBox" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="WagaMetrycznaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="MiaraMetrycznaWagaTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="KrabCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="MaksymalnaRóżnicaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="MaksymalnaRóżnicaTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="StartObliczeńButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="PostępObliczeńProgressBar" min="-2" pref="37" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="ProcentPrzetworzonychPlikówLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="KomunikatyTextField" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="IteracjeProgressBar" min="-2" pref="40" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="ProcentIteracjaLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="MotywDoWyszukaniaJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="MotywDoSzukaniaTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="8" max="32767" attributes="0"/>
+                  <Component id="CzySzukaćMotywuCheckBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JList" name="Wyb&#xf3;rKodowaniaList">
+              <Properties>
+                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Kodowanie UTF-8"/>
+                    <StringItem index="1" value="Kodowanie Windows"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="KodowanieZnkak&#xf3;wLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Wyb&#xf3;r kodowania znak&#xf3;w w plikach CSV:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JProgressBar" name="ProgresOg&#xf3;lnyProgressBar">
+        </Component>
+        <Component class="javax.swing.JLabel" name="ProcentWaliacjiLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Procent zwalidowanych plik&#xf3;w"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="MinimalnaLiczbaLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Minimalna liczba zdarze&#x144; Humdrum w motywie:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="WagaInterwa&#x142;owaLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Waga dla miary interwa&#x142;owej:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="WagaMetrycznaLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Waga dla miary metrycznej:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="MaksymalnaR&#xf3;&#x17c;nicaLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Maksymalna akceptowalna warto&#x15b;&#x107; r&#xf3;&#x17c;nicy:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="MinimalnaLiczbaTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="7"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MinimalnaLiczbaTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="MiaraInterwa&#x142;owaWagaTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0.2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="MiaraMetrycznaWagaTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0.1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MiaraMetrycznaWagaTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="MaksymalnaR&#xf3;&#x17c;nicaTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0.6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="StartOblicze&#x144;Button">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StartOblicze&#x144;ButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JProgressBar" name="Post&#x119;pOblicze&#x144;ProgressBar">
+        </Component>
+        <Component class="javax.swing.JLabel" name="ProcentPrzetworzonychPlik&#xf3;wLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Procent przetworzonych plik&#xf3;w"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="NazwaPlikuTextArea">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="lineWrap" type="boolean" value="true"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="KomunikatyTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="PojedynczeCheckBox">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" value="Tylko pojedyncze g&#x142;osy"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JProgressBar" name="IteracjeProgressBar">
+        </Component>
+        <Component class="javax.swing.JLabel" name="ProcentIteracjaLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Procent zrealizowanych iteracji dla danej liczby zdarze&#x144; Humdrum."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="KrabCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Czy szuka&#x107; kraba?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="TylkoJedn&#x105;D&#x142;ugo&#x15b;&#x107;CheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tylko jedn&#x105; d&#x142;ugo&#x15b;&#x107;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TylkoJedn&#x105;D&#x142;ugo&#x15b;&#x107;CheckBoxActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="MotywDoWyszukaniaJLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Motyw do wyszukania:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="MotywDoSzukaniaTextField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="5,48,0,74,2 P 5,50,2,76,2 P 5,52,2,78,2 P 5,53,2,80,3 P 6,55,2,83,0.5 P 6,53,-2,83,0.5 P 6,52,-2,5,2 P 6,57,4,84,2 P 6,50,-5,86,2 P 6,55,4,88,3 P 6,57,2,90,1 P 6,55,-2,93,1 P 6,53,-2,94,1 P 6,52,-2,95,1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MotywDoSzukaniaTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="CzySzuka&#x107;MotywuCheckBox">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Szukanie motywu w plikach"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
